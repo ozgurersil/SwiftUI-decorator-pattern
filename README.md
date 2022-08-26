@@ -1,6 +1,6 @@
 # SwiftUI Decorator Pattern
 
-Swift decorator pattern explained in real SwiftUI project simulating a food store with different main food and extra flavours to add or remove easily without changing the core object.
+Swift decorator pattern explained in real MVVM SwiftUI project simulating a food store with different main food and extra flavours to add or remove easily without changing the core object.
 
 ## Running locally
 - Clone the repository 
