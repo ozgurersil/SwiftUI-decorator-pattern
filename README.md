@@ -2,9 +2,28 @@
 
 Swift decorator pattern explained in real MVVM SwiftUI project simulating a food store with different main foods and extra flavours to add or remove easily without changing the core object.
 
+## How decorating works
+```
+let pizza:Order = Pizza()
+print(pizza.cost()) --> //3.20$
+```
+
+# Decorating pizza with mushroom
+```
+let mushroomPizza:Order = MushroomAdditionDecotator(pizza)
+print(mushroomPizza.cost()) --> //3.90$
+```
+
+# Decorating a decorator - Mushroom pizza with corn addition
+```
+let mushroomPizzaWithCorn:Order = CornAdditionDecotator(mushroomPizza)
+print(mushroomPizzaWithCorn.cost()) --> //4.30$
+```
+
 ## Running locally
 - Clone the repository 
 - Run com.decorator.xcodeproj in Xcode
+
 
 ## Screens
 
