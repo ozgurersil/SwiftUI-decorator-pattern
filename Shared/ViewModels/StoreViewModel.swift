@@ -39,6 +39,7 @@ class StoreViewModel: ObservableObject {
         self.allAddOns.forEach { addOn in
             addOn.isSelected = false
         }
+        self.addedAddOnTypes = []
         updateDescription()
     }
     
