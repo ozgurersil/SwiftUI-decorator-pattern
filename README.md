@@ -8,13 +8,13 @@ let pizza:Order = Pizza()
 print(pizza.cost()) --> //3.20$
 ```
 
-# Decorating pizza with mushroom
+## Decorating pizza with mushroom
 ```
 let mushroomPizza:Order = MushroomAdditionDecotator(pizza)
 print(mushroomPizza.cost()) --> //3.90$
 ```
 
-# Decorating a decorator - Mushroom pizza with corn addition
+## Decorating a decorator - Mushroom pizza with corn addition
 ```
 let mushroomPizzaWithCorn:Order = CornAdditionDecotator(mushroomPizza)
 print(mushroomPizzaWithCorn.cost()) --> //4.30$
