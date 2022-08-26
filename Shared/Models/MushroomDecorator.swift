@@ -11,12 +11,13 @@ import Foundation
 class MushroomAdditionDecotator: AdditionDecotator {
     
     private let order:Order
-    private let price:Double = 0.7
-    private let name:String = "Mushroom"
+    private let price:Float = 0.7
+    private let name:String = "mushroom"
+    
     init(order:Order){
         self.order = order
     }
-    func cost() -> Double {
+    func cost() -> Float {
         return self.order.cost() + price
     }
     

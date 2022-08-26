@@ -9,7 +9,7 @@ import Foundation
 
 
 class Pasta: Order{
-    func cost() -> Double {
+    func cost() -> Float {
         return 2.4
     }
     

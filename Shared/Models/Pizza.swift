@@ -9,7 +9,7 @@ import Foundation
 
 
 class Pizza: Order{
-    func cost() -> Double {
+    func cost() -> Float {
         return 3.2
     }
     

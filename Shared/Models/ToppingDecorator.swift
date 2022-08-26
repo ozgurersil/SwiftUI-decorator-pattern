@@ -10,13 +10,13 @@ import Foundation
 class ToppingsAdditionDecotator: AdditionDecotator {
     
     private let order:Order
-    private let price:Double = 0.8
-    private let name:String = "Toppings"
+    private let price:Float = 0.8
+    private let name:String = "toppings"
     
     init(order:Order){
         self.order = order
     }
-    func cost() -> Double {
+    func cost() -> Float {
         return self.order.cost() + price
     }
     

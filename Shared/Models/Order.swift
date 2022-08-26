@@ -9,11 +9,11 @@ import Foundation
 
 
 protocol Order {
-    func cost()->Double
+    func cost()->Float
     func description()->String
 }
 
 protocol AdditionDecotator: Order{
-    func cost()->Double
+    func cost()->Float
     func description()->String
 }

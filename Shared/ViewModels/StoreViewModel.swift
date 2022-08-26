@@ -6,7 +6,7 @@
 //
 
 import Combine
-
+import Foundation
 
 
 
@@ -62,6 +62,13 @@ class StoreViewModel: ObservableObject {
         }
     }
     
+    func isSelectedFood(food:Food)->Bool{
+        if let selectedMainOrder = selectedMainOrder {
+            return selectedMainOrder.description() == food.mainDish.description()
+        }
+        return false
+    }
+    
     func addOnTapped(addOn:AddOns){
         if !addOn.isSelected && !addedAddOnTypes.contains(addOn.addOnType){
             addedAddOnTypes.append(addOn.addOnType)
@@ -86,8 +93,8 @@ class StoreViewModel: ObservableObject {
     
     func updateDescription(){
         if let selectedOrder = selectedOrder {
-            let cost:Double = selectedOrder.cost()
-            self.info = selectedOrder.description() + "\n cost: " + String(cost) + "$"
+            let cost:Float = selectedOrder.cost()
+            self.info = "\(selectedOrder.description()) \n cost: \(String(format:"%.2f",cost))$"
         }
     }
     

@@ -28,6 +28,8 @@
 		9B99536328AA470400ECA7D3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99536228AA470400ECA7D3 /* Food.swift */; };
 		9BD5040828B8F08500E1A64C /* FoodUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5040728B8F08500E1A64C /* FoodUI.swift */; };
 		9BD5040928B8F08500E1A64C /* FoodUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5040728B8F08500E1A64C /* FoodUI.swift */; };
+		9BD5040B28B8F47800E1A64C /* AddOnUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5040A28B8F47800E1A64C /* AddOnUI.swift */; };
+		9BD5040C28B8F47800E1A64C /* AddOnUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5040A28B8F47800E1A64C /* AddOnUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,7 @@
 		9B99536028AA450500ECA7D3 /* MushroomDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDecorator.swift; sourceTree = "<group>"; };
 		9B99536228AA470400ECA7D3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		9BD5040728B8F08500E1A64C /* FoodUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodUI.swift; sourceTree = "<group>"; };
+		9BD5040A28B8F47800E1A64C /* AddOnUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOnUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 				9B99531528AA269F00ECA7D3 /* ContentView.swift */,
 				9B99531628AA26A000ECA7D3 /* Assets.xcassets */,
 				9BD5040728B8F08500E1A64C /* FoodUI.swift */,
+				9BD5040A28B8F47800E1A64C /* AddOnUI.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -358,6 +362,7 @@
 				9B99536328AA470400ECA7D3 /* Food.swift in Sources */,
 				9B99535B28AA44AE00ECA7D3 /* Order.swift in Sources */,
 				9B99535F28AA44E000ECA7D3 /* CornDecorator.swift in Sources */,
+				9BD5040B28B8F47800E1A64C /* AddOnUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD5040C28B8F47800E1A64C /* AddOnUI.swift in Sources */,
 				9B99533F28AA26A100ECA7D3 /* ContentView.swift in Sources */,
 				9B99533D28AA26A100ECA7D3 /* com_decoratorApp.swift in Sources */,
 				9BD5040928B8F08500E1A64C /* FoodUI.swift in Sources */,
